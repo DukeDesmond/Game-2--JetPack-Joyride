@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://0nwu18ngerl8"]
+
+[ext_resource type="Texture2D" uid="uid://brhvhpcm2dtjs" path="res://assets/Sprites/Hive.png" id="1_eyi4b"]
+
+[node name="spikePlatform" type="AnimatableBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_eyi4b")
+region_enabled = true
+region_rect = Rect2(47.8517, 120.689, 48.4529, 22.6465)
